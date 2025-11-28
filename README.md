@@ -1,0 +1,1 @@
+This is a landing Page project from FCC. I had to make it up with my brand name. I've been having a couple of issues working around the positioning. I pushed it here so  I can work on the issues along the way
