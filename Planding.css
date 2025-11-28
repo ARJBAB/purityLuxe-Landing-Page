@@ -12,7 +12,8 @@
 }
 body{
     font-family: "Lato", sans-serif;
-    background: url(https://images.unsplash.com/photo-1614115866447-c9a299154650?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2071) no-repeat center scroll ;
+    background: rgb(30, 18, 18) ;
+    opacity:0.8;
     color: var(--whitish);
     margin: 20px;
     padding: 10px 2%;
@@ -53,26 +54,71 @@ nav a{
     margin: 0 15px;
 }
 #core{
-    background-color: red;
-    border :5px solid blue; 
-    display: inline-block;
-    width:80vw;
+    width:100%;
     padding: 10px;
+    position: relative;
+    height: 70vh;
 
    
 }
 
 #left{
+    font-size: 1.3em;
+    line-height: 1.5em;
     display: inline-block;
-    width: 300px;
+    position: absolute;
+    left: 70px;
+    top: 100px;
+    width: 40%;
+}
 
+#left h2{
+    font-size: 2em;
+    padding: 20px 0;
+}
+
+#left button{
+    font-size: 1.1em;
+    background-color: var(--redish);
+    color: var(--whitish);
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 #right {
+    position: absolute;
     display: inline-block;
+    right:100px;
+    top:100px ;
 
 }
 #right img{
     height:400px;
-    width: 400px;
+    width: 350px;
+    opacity: 0.5;
+    border-radius: 30px;
+}
+
+
+#types{
+    display: grid;
+    grid-template: 100px / auto auto auto;
+    column-gap: 20px;
+    height:200px;
+    margin: 20px;
+}
+
+#types div{
+    width: 300px;
+    line-height: 25px;
+}
+
+#types h3{
+    font-size: 1.5em;
+    color: var(--redish);
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
 }
