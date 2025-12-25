@@ -73,16 +73,18 @@ nav a{
 }
 
 #left h2{
-    font-size: 2em;
-    padding: 20px 0;
+    font-size:2em;
+    padding: 10px 0;
+    line-height: 1.3em;
 }
 
 #left button{
-    font-size: 1.1em;
+    font-size: 1em;
     background-color: var(--redish);
     color: var(--whitish);
-    padding: 5px 10px;
+    padding: 5px;
     border-radius: 10px;
+    margin: 10px;
 }
 
 #right {
